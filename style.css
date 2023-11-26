@@ -1,0 +1,22 @@
+h1{
+    color:rgb(61, 59, 59);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 100px;
+}
+div{
+    border: 2px solid rgb(255, 47, 47);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
